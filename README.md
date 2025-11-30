@@ -575,11 +575,11 @@ vi <- explain_dalex(
 
 # Variable importance
 plot(vi$variable_importance)
-
+![alt text](image-1.png)
 # SHAP values
 plot(vi$shap_values)
 ```
-
+![alt text](image.png)
 ## Key Results
 
 | Algorithm | RMSE | R² | MAE |
@@ -604,7 +604,7 @@ This plot displays residual diagnostics for the best model, showing:
 - Residuals distribution
 - Q-Q plot for normality check
 - Scale-Location plot for homoscedasticity
-
+![alt text](image-2.png)
 ### Residual Diagnostics
 ```r
 # Detailed residual analysis
